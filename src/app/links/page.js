@@ -2,7 +2,6 @@ import React from 'react'
 import {FaLinkedin,FaGithub} from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
-import resume from '../assets/resume.png'
 
 
 const Media = () => {
@@ -32,10 +31,9 @@ const Media = () => {
               </li>
               <li className='flex justify-between hover:scale-125 sm:w-[300px] hover:border-2 hover:border-gray-900 bg-gray-600 items-center w-[240px] h-[60px] rounded-md my-5'>
                 <a  className='flex justify-between items-center w-full text-gray-300 p-2 
-                ' href={resume} download>Resume <BsFillPersonLinesFill size={30}/> </a>
+                ' href='/resume.png' download>Resume <BsFillPersonLinesFill size={30}/> </a>
               </li>
             </ul>
-          
         </div>
     </div>
   )
