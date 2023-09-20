@@ -23,7 +23,7 @@ const Media = () => {
               </li>
               <li className='flex justify-between hover:scale-125 sm:w-[300px] hover:border-2 hover:border-black bg-black items-center w-[240px] h-[60px] rounded-md my-5'>
                 <a  className='flex justify-between items-center w-full text-gray-300 p-2 
-                ' href="https://github.com/Senthil2003k">Github <FaGithub size={30}/> </a>
+                ' href="https://github.com/senthil-developer">Github <FaGithub size={30}/> </a>
               </li>
               <li className='flex justify-between hover:scale-125 sm:w-[300px] hover:border-2 hover:border-green-900 bg-green-600 items-center w-[240px] h-[60px] rounded-md my-5'>
                 <a  className='flex justify-between items-center w-full text-gray-300 p-2 
