@@ -10,7 +10,6 @@ import Image from 'next/image'
 
 
 
-
 const Navbar = () => {
   
   const [nav, setNav] = useState(false)
