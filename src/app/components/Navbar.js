@@ -54,7 +54,7 @@ const Navbar = () => {
               </li>
               <li className='flex justify-between items-center w-[160px] media h-[60px] ml-[-100px] hover:ml-[-10px] duration-300 bg-black'>
                 <a  className='flex justify-between items-center w-full text-gray-300 ' 
-                href="https://github.com/Senthil2003k">Github <FaGithub size={30}/> </a>
+                href="https://github.com/senthil-developer">Github <FaGithub size={30}/> </a>
               </li>
               <li className='flex justify-between items-center w-[160px] media h-[60px] ml-[-100px] hover:ml-[-10px] duration-300 bg-green-600'>
                 <a  className='flex justify-between items-center w-full text-gray-300 ' href="mailto:senthilk2003k@gmail.com">Email <HiOutlineMail size={30}/> </a>
