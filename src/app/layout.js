@@ -9,7 +9,7 @@ const poppins = Poppins({
 
 export const metadata = {
   title: 'portfolio website',
-  description: ' create using mextjs , react js , tailwind css'
+  description: ' create using nextjs , react js , tailwind css'
 }
 
 export default function RootLayout({ children }) {
