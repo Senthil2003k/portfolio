@@ -31,7 +31,7 @@ const Media = () => {
               </li>
               <li className='flex justify-between hover:scale-125 sm:w-[300px] hover:border-2 hover:border-gray-900 bg-gray-600 items-center w-[240px] h-[60px] rounded-md my-5'>
                 <a  className='flex justify-between items-center w-full text-gray-300 p-2 
-                ' href='/resume.png' download>Resume <BsFillPersonLinesFill size={30}/> </a>
+                ' href='/resume.pdf' download>Resume <BsFillPersonLinesFill size={30}/> </a>
               </li>
             </ul>
         </div>
