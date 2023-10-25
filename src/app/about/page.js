@@ -18,7 +18,7 @@ const About = () => {
                         <p>Hi. I'm senthil, nice to meet you. please take a look around.</p>
                     </div>
                     <div>
-                        <p>Hi. I'm senthil, nice to meet you. please take a look around.</p>
+                        <p>Aspiring front-end developer with a solid grasp of HTML, CSS, and JavaScript. Eager to learn and passionate about creating engaging and interactive web interfaces. Adept at using modern front-end frameworks such as ReactJS and NextJS to build responsive web applications. Excited to embark on a journey to contribute to innovative web projects</p>
                     </div>
             </div>
         </div>
