@@ -5,6 +5,7 @@ import github from '../assets/github.png'
 import js from '../assets/js.png'
 import tailwindcss from '../assets/tailwindcss.svg'
 import react_img from '../assets/react.png'
+import nextjs from '../assets/nextjs.png'
 import Image from 'next/image'
 
 const Skill = () => {
@@ -32,6 +33,15 @@ const Skill = () => {
             <Image className='w-20 mx-auto' src={js}  alt="JAVASCRIPT ICON" />
             <p className='pt-2'>JAVASCRIPT</p>
           </div>
+          <div className='hidden sm:flex'></div>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-3 m-3'>
+            <div className=' w-[80px]  mx-auto  bg-white rounded-full' >
+            <Image className='  w-[80px] mx-auto  ' src={nextjs}  alt="NEXT JS ICON" />
+            
+            </div>
+            <p className='pt-2'>NEXT JS</p>
+          </div>
+          <div className='hidden sm:flex'></div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-3 m-3'>
             <Image className='w-20 mx-auto' src={react_img}  alt="REACT JS ICON" />
             <p className='pt-2'>REACT JS</p>
