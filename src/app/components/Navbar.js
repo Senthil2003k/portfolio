@@ -16,17 +16,19 @@ const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handleCLick =  () => setNav(!nav);
   return(
-    <div className=' header z-10 text-white fixed w-full h-[60px]  px-4 flex items-center justify-between'>
-      <div>
-        <Image  style={{width:"50px"}}  src={logo} alt='logo'/>
+    <div className='  z-10 text-white fixed w-full h-[60px]  px-4 flex items-center justify-between'>
+      <div className='header'>
+        <div>
+          <Image  style={{width:"50px"}}  src={logo} alt='logo'/>
+        </div>
+          <ul className='hidden md:flex' >
+                  <li className='media'><Link href="/">Home</Link></li>
+                  <li className='media'><Link href="/about" className={router === "/about" ? " underline-offset-8 underline decoration-4  decoration-[#f83bff]" : '' }>About</Link></li>
+                  <li className='media'><Link href="/skill" className={router === "/skill" ? " underline-offset-8 underline decoration-4  decoration-[#f83bff]" : '' }>Skills</Link></li>
+                  <li className='media'><Link href="/project" className={router === "/project" ? " underline-offset-8 underline decoration-4  decoration-[#f83bff]" : '' }>Project</Link></li>
+                  <li className='media'><Link href="/contact" className={router === "/contact" ? " underline-offset-8 underline decoration-4  decoration-[#f83bff]" : '' }>Contact</Link></li>
+          </ul>
       </div>
-        <ul className='hidden md:flex' >
-                <li className='media'><Link href="/">Home</Link></li>
-                <li className='media'><Link href="/about" className={router === "/about" ? " underline-offset-8 underline decoration-4  decoration-[#f83bff]" : '' }>About</Link></li>
-                <li className='media'><Link href="/skill" className={router === "/skill" ? " underline-offset-8 underline decoration-4  decoration-[#f83bff]" : '' }>Skills</Link></li>
-                <li className='media'><Link href="/project" className={router === "/project" ? " underline-offset-8 underline decoration-4  decoration-[#f83bff]" : '' }>Project</Link></li>
-                <li className='media'><Link href="/contact" className={router === "/contact" ? " underline-offset-8 underline decoration-4  decoration-[#f83bff]" : '' }>Contact</Link></li>
-        </ul>
         {/* hamburger*/}
         <div onClick={handleCLick} className='md:hidden  z-10'>
           {nav ?<FaTimes/>: <FaBars/> } 
@@ -35,7 +37,7 @@ const Navbar = () => {
 
         {/* mobile menu */}
         <ul className= {!nav ? 'hidden': 
-          ' absolute top-0 left-0 w-full h-screen bg-black flex flex-col  justify-center items-center'} > 
+          ' absolute top-0 left-0 w-full h-screen bg-black flex flex-col  justify-center items-center header'} > 
           <li onClick={handleCLick}  className= 'py-6 text-4xl media'><Link href="/">Home</Link></li>
           <li onClick={handleCLick}  className='py-6 text-4xl media'><Link href="/about">About</Link></li>
           <li onClick={handleCLick}  className='py-6 text-4xl media'><Link href="/skill">Skills</Link></li>
