@@ -1,7 +1,7 @@
 import React from 'react'
 const Project = () => {
   return (
-    <div  className='project w-full bg-[#0a192f] md:h-screen text-gray-300'>
+    <div  className='project w-full bg-[#0a192f]  text-gray-300'>
       {/* container */}
       <div className='max-w-[1000px]  mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pt-12 md:p-0' >
