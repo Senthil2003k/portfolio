@@ -6,7 +6,7 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
 
 const Media = () => {
   return (
-    <div  className= '  text-white  flex-col  w-full bg-[#0a192f]'>
+    <div  className= '  text-white  flex-col  h-screen w-full bg-[#0a192f]'>
 
         <div className='hidden lg:flex flex-col justify-center items-center h-full w-full'>
             <p className='text-2xl'>YOU'RE viewing this page on larger device, </p> 
