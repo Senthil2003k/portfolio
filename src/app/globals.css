@@ -26,6 +26,7 @@
 
 .bg-img {
   background-image: url('./assets/mediaImg.jpg');
+z-index:2;
 }
 
 
@@ -33,6 +34,7 @@
   background-image: url('./assets/Will.jpg');
   background-size: 110%;
   background-repeat: repeat;
+z-index:2;
 }
 
 .scroll{
