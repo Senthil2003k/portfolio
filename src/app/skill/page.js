@@ -10,7 +10,7 @@ import Image from 'next/image'
 
 const Skill = () => {
   return (
-    <div name='skill' className=' w-full h-screen bg-[#0a192f] text-white'>
+    <div name='skill' className=' w-full h-screen text-white'>
       {/* container */}
       <div className='max-w-[1000px] mx-[auto]  my-[auto]  flex flex-col justify-evenly w-full h-full'>
         <div className='pt-20 pl-4  md:pt-[60px] ' > 
