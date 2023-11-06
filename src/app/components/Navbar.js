@@ -1,8 +1,8 @@
 "use client";
 
-import React,{useState} from 'react'
+import {useState} from 'react'
 import logo from '../assets/logo.png'
-import {FaBars,FaTimes ,FaLinkedin,FaGithub} from 'react-icons/fa'
+import {FaBars,FaTimes ,FaLinkedin,FaGithub} from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Link from 'next/link'
@@ -37,7 +37,7 @@ const Navbar = () => {
         {/* mobile menu */}
         <ul className= {!nav ? 'hidden': 
           ' absolute top-0 left-0 w-full h-screen bg-black flex flex-col  justify-center items-center'} > 
-          <li onClick={handleCLick}  className= 'py-6 text-4xl media'><Link href="/">Home</Link></li>
+          <li onClick={handleCLick}  className='py-6 text-4xl media'><Link href="/">Home</Link></li>
           <li onClick={handleCLick}  className='py-6 text-4xl media'><Link href="/about">About</Link></li>
           <li onClick={handleCLick}  className='py-6 text-4xl media'><Link href="/skill">Skills</Link></li>
           <li onClick={handleCLick}  className='py-6 text-4xl media'><Link href="/project">Project</Link></li>
