@@ -16,7 +16,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handleCLick =  () => setNav(!nav);
   return(
-    <div className=' bg-black z-10 text-white fixed w-full h-[60px]  px-4 flex items-center justify-between'>
+    <div className=' header z-10 text-white fixed w-full h-[60px]  px-4 flex items-center justify-between'>
       <div>
         <Image  style={{width:"50px"}}  src={logo} alt='logo'/>
       </div>
