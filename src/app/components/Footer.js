@@ -3,7 +3,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className=' text-sm text-white w-full font-[400] border-t-8 border-slate-900 bg-[#0a192f]'>
+    <footer className=' text-sm text-white w-full font-[400] border-t-8 border-slate-900 bg-inherit'>
         <ul className=' flex items-center justify-evenly my-2'>
                 <li><a href='https://github.com/senthil-developer/portfolio'>Source code</a></li>
                 <li><a href='https://www.linkedin.com/in/senthil-k-17629824a'>Linkedin</a></li>
